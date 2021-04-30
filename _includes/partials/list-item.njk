@@ -26,12 +26,12 @@
             <div class="item-tray__tags">{{ item.data.tags | join(', ')}}</div>
             </div>
             <div class="item-tray__column item-tray__column--links">
-                {% if item.data.updatesFeed %}
-                    <a class="item-tray__link item-tray__link--feed" href="{{ item.data.updatesFeed }}">
+                {% if item.data.githubacct %}
+                    <a class="item-tray__link item-tray__link--feed" href="{{ item.data.githubacct }}">
                     <svg viewBox="0 0 13 13" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path id="arrow-up-right" fill-rule="evenodd" clip-rule="evenodd" d="M9.58586 2H1.00008V0H13.0001V12H11.0001V3.41421L1.70718 12.7071L0.292969 11.2929L9.58586 2Z"/>
                     </svg>
-                    Go to feed
+                    Go to GitHub profile
                 </a>
                 {% endif %}
                 <a class="item-tray__link item-tray__link--site" href="{{ item.data.url }}">
