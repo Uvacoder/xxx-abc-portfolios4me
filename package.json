@@ -22,8 +22,8 @@
   },
   "homepage": "https://abc-portfolios.vercel.app",
   "dependencies": {
-    "@11ty/eleventy": "^0.10.0",
-    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.1.2",
     "capture-website": "^0.8.1",
     "cloudinary": "^1.21.0",
     "dotenv": "^8.2.0",
