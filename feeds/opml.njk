@@ -8,7 +8,7 @@ permalink: feed/opml.opml
     <title>Personal sites are awesome!</title>
   </head>
   <body>
-    <outline text="personalsit.es">
+    <outline text="abcPortfolios">
     {%-for item in collections.sites | shuffle %}
         {%-if item.data.updatesFeed %}
             <outline type="rss" text="{{ item.data.title }}" xmlUrl="{{ item.data.updatesFeed }}" htmlUrl="{{ item.data.url }}"/>
