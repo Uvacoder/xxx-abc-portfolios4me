@@ -4,14 +4,14 @@ permalink: feed/all.xml
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Personal sites are awesome!</title>
-	<subtitle>All sites from personalsit.es</subtitle>
-	<link href="https://personalsit.es/feed/all.xml" rel="self"/>
-	<link href="https://personalsit.es/"/>
+	<subtitle>All sites from abcPortfolios</subtitle>
+	<link href="https://abc-portfolios.vercel.app/feed/all.xml" rel="self"/>
+	<link href="https://abc-portfolios.vercel.app/"/>
 	<updated>{{ collections.sites | rssLastUpdatedDate }}</updated>
-	<id>https://personalsit.es</id>
+	<id>https://abc-portfolios.vercel.app</id>
 	<author>
-		<name>Andy Bell</name>
-		<email>andy@hankchizljaw.io</email>
+		<name>Alec Campbell</name>
+		<email>freeunioncoder@gmail.com</email>
 	</author>
 	{%- for post in collections.sites %}
         {% if not post.data.external %}
