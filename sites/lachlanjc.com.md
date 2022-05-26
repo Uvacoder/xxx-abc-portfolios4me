@@ -1,4 +1,3 @@
-lachlanjc.com
 ---
 title: 'Lachlan Campbell'
 url: 'https://lachlanjc.com'
