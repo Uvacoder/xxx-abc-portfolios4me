@@ -48,7 +48,7 @@ ol {
 /* end mini reset */
 
 :root {
-  --color__site--background: hsl(0, 0%, 97%);
+  --color__site--background: hsl(337, 100%, 95%);
   --color__text--primary: hsl(0, 0%, 1%);
   --color__text--secondary: hsl(0, 0%, 42%);
   --color__text--tertiary: hsl(0, 0%, 54%);
