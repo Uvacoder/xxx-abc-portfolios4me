@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/hankchizljaw/personalsit.es/issues"
   },
-  "homepage": "https://abc-portfolios.vercel.app",
+  "homepage": "https://portfolios4me.vercel.app",
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
